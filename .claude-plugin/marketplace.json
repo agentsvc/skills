@@ -1,0 +1,24 @@
+{
+  "name": "agentsvc",
+  "description": "Skills for 127 pay-per-call APIs from agentsvc.io: speech to text, web pages to Markdown, email verification, token safety checks, document and invoice extraction, and a catalog of everything else. No account, pay per successful call with a credit token, an x402 wallet or the Zero CLI.",
+  "owner": {
+    "name": "agentsvc.io",
+    "email": "agents@agentsvc.io",
+    "url": "https://agentsvc.io"
+  },
+  "plugins": [
+    {
+      "name": "agentsvc",
+      "displayName": "agentsvc.io",
+      "description": "Six skills for paid APIs your agent can call without an account: transcribe-audio, web-to-markdown, verify-email, token-safety-check, read-documents, and agentsvc for the full catalog of 127 services. From $0.002 per call, failed calls are not charged.",
+      "source": "./skills",
+      "skills": ["./"],
+      "author": { "name": "agentsvc.io", "url": "https://agentsvc.io" },
+      "homepage": "https://agentsvc.io",
+      "repository": "https://github.com/agentsvc/skills",
+      "license": "MIT",
+      "keywords": ["x402", "agents", "speech-to-text", "web-scraping", "markdown", "email-verification", "token-security", "ocr", "pdf"],
+      "category": "productivity"
+    }
+  ]
+}
