@@ -6,7 +6,7 @@ Agent skills for [agentsvc.io](https://agentsvc.io): 127 small paid APIs your ag
 |---|---|---|
 | [transcribe-audio](skills/transcribe-audio/SKILL.md) | Speech to text with timestamps, about 100 languages | $0.01 per file up to 10 min |
 | [web-to-markdown](skills/web-to-markdown/SKILL.md) | One page, 20 pages or a site section as clean Markdown, plus screenshots | from $0.0025 |
-| [verify-email](skills/verify-email/SKILL.md) | Does the mailbox exist? SMTP check, no email sent | $0.0025 |
+| [verify-email](skills/verify-email/SKILL.md) | Does the mailbox exist? SMTP check, no email sent | $0.002 |
 | [token-safety-check](skills/token-safety-check/SKILL.md) | Honeypot and rug check before a swap, grade A to F, EVM and Solana | from $0.004 |
 | [read-documents](skills/read-documents/SKILL.md) | PDF text, OCR, Word and EPUB to Markdown, invoices to JSON | from $0.0055 |
 | [agentsvc](skills/agentsvc/SKILL.md) | Search the full catalog and call any service | from $0.002 |
