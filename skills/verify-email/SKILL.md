@@ -1,11 +1,11 @@
 ---
 name: verify-email
-description: Check whether an email address really exists before sending outreach, importing a lead list or accepting a sign-up. Asks the receiving mail server (SMTP check, no email is sent) on top of syntax, MX, disposable and role-address checks, and returns deliverable, undeliverable, catch_all, risky or unknown. agentsvc.io, $0.0025 per address, no account.
+description: Check whether an email address really exists before sending outreach, importing a lead list or accepting a sign-up. Asks the receiving mail server (SMTP check, no email is sent) on top of syntax, MX, disposable and role-address checks, and returns deliverable, undeliverable, catch_all, risky or unknown. agentsvc.io, $0.002 per address, no account.
 ---
 
 # Verify email addresses
 
-`POST https://agentsvc.io/api/v1/proxy/email-verify` with `{"email": "jane@example.com"}` asks the mail server whether the mailbox exists. No email is sent. $0.0025 per address. Results are cached for 6 hours, so a repeated address answers instantly.
+`POST https://agentsvc.io/api/v1/proxy/email-verify` with `{"email": "jane@example.com"}` asks the mail server whether the mailbox exists. No email is sent. $0.002 per address. Results are cached for 6 hours, so a repeated address answers instantly.
 
 ## What `data.status` means
 
@@ -41,6 +41,6 @@ Without a token the endpoint answers 402 and any x402 client pays it in USDC (Ba
 
 ## Rules
 
-Tell the user the total before checking a long list (addresses x $0.0025). Remove duplicates first. Never ask for a private key in the chat.
+Tell the user the total before checking a long list (addresses x $0.002). Remove duplicates first. Never ask for a private key in the chat.
 
 Guide: https://agentsvc.io/guides/verify-email
