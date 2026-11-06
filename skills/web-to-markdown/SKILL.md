@@ -1,6 +1,6 @@
 ---
 name: web-to-markdown
-description: Read web pages as clean, LLM-ready Markdown, one URL, up to 20 URLs in one call, or a whole site section, plus real-browser screenshots. Use when the user wants you to read, summarize, compare or extract from web pages and your own fetch fails, returns raw HTML, is blocked, or the page needs JavaScript. agentsvc.io, from $0.0025 per page, no account, failed pages are not charged.
+description: Read web pages as clean, LLM-ready Markdown, one URL, up to 20 URLs in one call, or a whole site section, plus real-browser screenshots. Use when the user wants you to read, summarize, compare or extract from web pages and your own fetch fails, returns raw HTML, is blocked, or the page needs JavaScript. agentsvc.io, from $0.0015 per page, no account, failed pages are not charged.
 ---
 
 # Web pages to Markdown
@@ -9,7 +9,7 @@ agentsvc.io fetches a page, drops menus, ads and footers and returns the main co
 
 | You have | Service | Price |
 |---|---|---|
-| one URL | `web-scrape` | $0.0025 |
+| one URL | `web-scrape` | $0.0015 |
 | a list of up to 20 URLs | `web-scrape-batch` (one payment, fetched in parallel) | $0.05 |
 | a site or a section like /docs | `site-crawl` (follows links, up to 20 pages) | $0.005 |
 | a page you need to see | `screenshot` (PNG from a real browser) | $0.009 |

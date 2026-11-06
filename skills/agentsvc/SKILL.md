@@ -1,11 +1,11 @@
 ---
 name: agentsvc
-description: Call one of 127 pay-per-call APIs from agentsvc.io when a task needs something you cannot do yourself, such as reading a web page, a screenshot, speech to text, OCR, email verification, a token or wallet check, sanctions screening, company lookup, exchange rates, weather, news or satellite images. Use when the user asks for live or external data or a conversion you have no tool for. Search the catalog for free, then call the endpoint with a credit token, an x402 wallet or the Zero CLI. Prices from $0.002 per call, failed calls are never charged.
+description: Call one of 127 pay-per-call APIs from agentsvc.io when a task needs something you cannot do yourself, such as reading a web page, a screenshot, speech to text, OCR, email verification, a token or wallet check, sanctions screening, company lookup, exchange rates, weather, news or satellite images. Use when the user asks for live or external data or a conversion you have no tool for. Search the catalog for free, then call the endpoint with a credit token, an x402 wallet or the Zero CLI. Prices from $0.0015 per call, failed calls are never charged.
 ---
 
 # agentsvc.io: pay-per-call APIs for agents
 
-[agentsvc.io](https://agentsvc.io) runs 127 small APIs for agents behind one pattern: `POST https://agentsvc.io/api/v1/proxy/<slug>` with a JSON body. No account and no sign-up. You pay per successful call, from $0.002.
+[agentsvc.io](https://agentsvc.io) runs 127 small APIs for agents behind one pattern: `POST https://agentsvc.io/api/v1/proxy/<slug>` with a JSON body. No account and no sign-up. You pay per successful call, from $0.0015.
 
 For the most common tasks there are dedicated skills: `transcribe-audio`, `web-to-markdown`, `verify-email`, `token-safety-check`, `read-documents`. Use this one for everything else.
 
